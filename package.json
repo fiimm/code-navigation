@@ -2,7 +2,7 @@
   "name": "code-navigation",
   "displayName": "Code Navigation",
   "description": "Hierarchical code navigation based on comment tags",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "publisher": "code-navigation",
   "engines": {
     "vscode": "^1.85.0"
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ваш_логин/code-navigation.git"
+    "url": "https://github.com/fiimm/code-navigation.git"
   },
   "categories": ["Other"],
   "activationEvents": ["onStartupFinished"],
