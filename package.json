@@ -1,9 +1,9 @@
 {
   "name": "code-navigation",
-  "displayName": "Code Navigation",
+  "displayName": "Code Navigation — Tree from Comment Tags",
   "description": "Hierarchical code navigation based on comment tags",
-  "version": "0.1.8",
-  "publisher": "code-navigation",
+  "version": "0.1.9",
+  "publisher": "fiimm",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/fiimm/code-navigation.git"
   },
-  "categories": ["Other"],
+  "categories": ["Other", "Programming Languages", "Visualization"],
   "activationEvents": ["onStartupFinished"],
   "main": "./out/extension.js",
   "contributes": {
@@ -67,11 +67,24 @@
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package --allow-missing-repository"
   },
   "devDependencies": {
     "@types/vscode": "^1.85.0",
     "@types/node": "20.x",
     "typescript": "^5.3.0"
-  }
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "navigation",
+    "code navigation",
+    "comment tags",
+    "tree",
+    "embedded",
+    "c",
+    "cpp",
+    "bookmarks",
+    "code map"
+  ]
 }
