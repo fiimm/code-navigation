@@ -204,7 +204,7 @@ Works with any language that has line comments. The extension recognizes `//`, `
 Or from the command line:
 
 ```
-code --install-extension code-navigation-0.1.7.vsix
+code --install-extension code-navigation-0.1.9.vsix
 ```
 
 ### From source
